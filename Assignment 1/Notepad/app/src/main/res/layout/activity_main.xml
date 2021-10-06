@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#C6C3C3"
+
+   >
+
+    <ImageView
+        android:id="@+id/dropdown_menu"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/dropdown">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/checkbox"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/checkbox">
+
+    </ImageView>
+
+    <ImageView
+        android:id="@+id/dots"
+        android:layout_width="30dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/__dots">
+
+    </ImageView>
+
+    <EditText
+        android:id="@+id/search_bar"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:minHeight="48dp"
+        android:text="Search notes">
+
+    </EditText>
+
+    <ImageView
+        android:id="@+id/search_button"
+        android:layout_width="20dp"
+        android:layout_height="40dp"
+        android:layout_below="@+id/dropdown_menu"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@+id/search_bar"
+        android:src="@drawable/search"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search_bar"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="First Note"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_marginLeft="25dp"
+        android:text="Description..."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Second Note"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView13"
+        android:layout_marginLeft="25dp"
+        android:text="Description..."
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView14"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Third Note"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Description..."
+        android:textSize="16sp"
+        android:layout_below="@+id/textView16"/>
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView15"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Fourth Note"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:text="Description..."
+        android:textSize="16sp"
+        android:layout_below="@+id/textView17"
+        />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="45dp"
+        android:text="Fifth Note"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@id/textView18"/>
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="350dp"
+        android:layout_marginLeft="25dp"
+        android:layout_height="wrap_content"
+        android:text="Description..."
+        android:textSize="16sp"
+        android:layout_below="@id/textView19"/>
+
+</RelativeLayout>
